@@ -1,0 +1,92 @@
+/****
+background colour
+Colors:
+#151b28
+#2e3552
+#bd1598
+#e1e1e1;
+
+TYPOGRAPHY SYSTEM 
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+WHITE SPACE
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*****/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #151b28;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  /* 10px / 16px = 0.625 = 62.5% 
+    Percentage of users font size setting*/
+  font-size: 62.5%;
+  background-image: url(img/wallhaven-72qq29.png);
+  background-size: cover;
+}
+
+/* body {
+} */
+h1 {
+  font-weight: 300;
+}
+.header {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  margin-top: 4.8rem;
+  font-size: 36px;
+  /* background-color: #151b2883; */
+}
+
+.coinmarketcap-currency-widget {
+  height: 170px;
+}
+.container {
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  /* background-color: aquamarine; */
+  height: 100vh;
+}
+.welcome-msg {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4.8rem;
+  font-size: 3.6rem;
+}
+.clock {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-around;
+  width: 60rem;
+  height: 200px;
+  font-size: 14rem;
+  background-color: #151b2883;
+}
+
+.twitter {
+  margin-top: 2.8rem;
+  background-color: rgb(60, 31, 145);
+  height: 500px;
+
+  overflow: scroll;
+}
+
+.crypto {
+  margin-top: 2.8rem;
+  background-color: #2e3552;
+  height: 500px;
+}
+
+.twitter-timeline {
+  overflow: scroll;
+}
